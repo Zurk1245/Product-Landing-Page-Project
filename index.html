@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es-419">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header" class="header">
+            <img id="header-img" class="img" src="https://cdn.pixabay.com/photo/2020/08/25/11/10/chess-5516446_1280.jpg">
+            <h2 class="marca">CHESSPUM</h2>
+            <div class="clase-nav">
+                <nav id="nav-bar" class="nav">     
+                    <a class="nav-link" href="#nuestros-tableros">Nuestros tableros</a>
+                    <a class="nav-link" href="#precios">Precios</a>
+                    <a class="nav-link" href="#contacto">¿Contacto?</a>
+                </nav>
+            </div>    
+        </header>
+
+        <!-- ENCABEZADO -->
+
+        <div class="encabezado">
+            <p>Tableros de ajedrez de alta calidad al alcance de tu mano con envíos internacionales</p>
+        </div>
+
+        <!-- VIDEO -->
+
+        <section id="nuestros-tableros">
+
+            <h2 class="subtitle">NUESTROS TABLEROS</h2>
+
+            <video id="video" src="video-ajedrez.mp4" controls></video>
+        </section>
+
+        <!-- OPCIONES -->
+        <section id="precios">
+            <h2 class="subtitle">PRECIOS</h2>
+            <div class="opciones">
+                <div class="opción-1">
+                    <h3 class="titulo">Estándar</h3>
+                    <img src="Tablero-ESTÁNDAR.jpg" class="opciones-tableros-img" alt="Tablero estándar">
+                    <p>$ 2000 ARS</p>
+                    <p class="detalles">
+                        Tablero de madera con casillas marrones y amarillas, y piezas estilo tradicional
+                    </p>
+                    <button type="submit">COMPRAR</button>
+                </div>
+                <div class="opción-2">
+                    <h3 class="titulo">Premium</h3>
+                    <img src="Tablero-HARRY-POTTER.jpg" class="opciones-tableros-img" alt="Tablero premium">
+                    <p>$ 3500 ARS</p>
+                    <p class="detalles">
+                        Tablero de madera refinada con blancas y negras. Piezas talladas a mano al estilo inglés versión Harry Potter
+                    </p>
+                    <button type="submit">COMPRAR</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacto"> 
+
+            <h2 class="subtitle">CONTACTO</h2>
+
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Ingrese su correo electrónico para recibir mas detalles de los tableros:</label> <br><br>
+                <input id="email" name="email" type="email" placeholder="Ingrese su correo aquí" required> <br><br>
+                <input id="submit" type="submit">
+            </form>    
+
+        </section>
+
+
+
+        
+    </body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
